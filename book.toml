@@ -1,5 +1,23 @@
 [book]
 title = "Kaen-Coon AI Cluster Documentation"
-description = "Documentation for Using Kaen-Coon AI Cluster, College of Computing, Khon Kaen University"
+description = "Documentation for using Kaen-Coon AI Cluster, College of Computing, Khon Kaen University"
 authors = ["Napat Srichan"]
 language = "en"
+
+[build]
+# also watches for translating tables directory
+extra-watch-dirs = ["po"]
+
+[output.html]
+# upper git icon
+git-repository-url = "https://github.com/anonymaew/kaen-coon-doc"
+edit-url-template = "https://github.com/anonymaew/kaen-coon-doc/edit/master/src/{path}"
+# git-repository-url = "https://git.napatsc.com/computing-kku/kaen-coon-doc"
+# edit-url-template = "https://git.napatsc.com/computing-kku/kaen-coon-doc/edit/master/src/{path}"
+preferred-dark-theme = "cpkku"
+site-url = "/kaen-coon/"
+
+[preprocessor.gettext]
+optional = true
+before = ["admonish"]
+after = ["links"]
