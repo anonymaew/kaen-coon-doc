@@ -1,0 +1,17 @@
+theme/fonts/open-sans-v17-all-charsets-600.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/open-sans-v17-all-charsets-800.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/open-sans-v17-all-charsets-italic.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/source-code-pro-v11-all-charsets-500.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/JetBrainsMono-Italic-Latin.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/JetBrainsMono-Latin.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/open-sans-v17-all-charsets-300.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/open-sans-v17-all-charsets-600italic.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/open-sans-v17-all-charsets-800italic.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/Inter-Italic-Latin.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/open-sans-v17-all-charsets-700.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/open-sans-v17-all-charsets-700italic.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/open-sans-v17-all-charsets-regular.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/Anuphan-Thai.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/Inter-Latin.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/fonts/open-sans-v17-all-charsets-300italic.woff2 filter=lfs diff=lfs merge=lfs -text
+theme/favicon.png filter=lfs diff=lfs merge=lfs -text
