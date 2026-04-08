@@ -1,4 +1,4 @@
-# For users
+# For Users
 
 To interact with the cluster, go to <https://10.198.253.15:8000>. All operations
 will happen on the website via web interface.
