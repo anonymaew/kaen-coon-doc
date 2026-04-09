@@ -24,3 +24,8 @@ src/users/job/queue-types.webp filter=lfs diff=lfs merge=lfs -text
 src/reference/assets/ai-cluster-ptoa.pdf filter=lfs diff=lfs merge=lfs -text
 src/reference/assets/h100-manual-researcher.pdf filter=lfs diff=lfs merge=lfs -text
 src/reference/assets/h100-manual-student.pdf filter=lfs diff=lfs merge=lfs -text
+src/users/job/monitor.webm filter=lfs diff=lfs merge=lfs -text
+src/users/login.webm filter=lfs diff=lfs merge=lfs -text
+src/users/files/files.webm filter=lfs diff=lfs merge=lfs -text
+src/users/job/copy.webm filter=lfs diff=lfs merge=lfs -text
+src/users/job/create-basic.webm filter=lfs diff=lfs merge=lfs -text

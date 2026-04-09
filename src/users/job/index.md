@@ -32,6 +32,9 @@ dataset to the cluster.
           the limit.
 4. Click "Submit" to create the job and submit it to the cluster.
 
+<video controls loading="lazy" src="./create-basic.webm">
+</video>
+
 ## Monitor a Job
 
 After submitting a job, the job will go through a queue and being run by a node.
@@ -61,6 +64,9 @@ Assuming the job is out of queue and running, you can monitor it by:
       current state of the job.
     - Resource: all resource used for running the job.
 
+<video controls loading="lazy" src="./monitor.webm">
+</video>
+
 After the job has finished running:
 
 1. Click "Completed" tab. You will see the history of completed jobs
@@ -78,3 +84,6 @@ a new job from scratch again.
 2. Click "Action" button on the right side of the job you intend to copy.
 3. Click "Copy", this will recreate another job with filled details.
 4. Edit the detail, and then click "Submit" to send a new job.
+
+<video controls loading="lazy" src="./copy.webm">
+</video>

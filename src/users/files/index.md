@@ -8,6 +8,9 @@ operations on web interface.
    on the lower left side.
 3. The file tree should appear on the left side.
 
+<video controls loading="lazy" src="./files.webm">
+</video>
+
 ## Creating/Uploading files
 
 Click on ![create directory and file icon](./create-icon.webp) to either create a

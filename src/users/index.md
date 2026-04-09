@@ -14,6 +14,9 @@ will happen on the website via web interface.
 > Make sure that you already obtained username/password for the cluster.
 > Registration can be found [here](https://computing.kku.ac.th/h100).
 
+<video controls loading="lazy" src="./login.webm">
+</video>
+
 Before running a program, we must [upload scripts and data](./files/index.html)
 to the cluster first. When we start running programs, we have something to run
 and calculate.
