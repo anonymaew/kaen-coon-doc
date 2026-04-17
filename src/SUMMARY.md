@@ -1,5 +1,3 @@
-# Summary
-
 - [Introduction](./introduction/index.md)
     - [Glossary](./introduction/glossary.md)
     - [Architecture](./introduction/architecture/index.md)

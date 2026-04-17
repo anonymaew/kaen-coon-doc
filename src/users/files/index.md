@@ -8,7 +8,7 @@ operations on web interface.
    on the lower left side.
 3. The file tree should appear on the left side.
 
-<video controls loading="lazy" src="./files.webm">
+<video controls loading="lazy" src="./files.webm" style="aspect-ratio: 16 / 9; width: 100%;">
 </video>
 
 ## Creating/Uploading files

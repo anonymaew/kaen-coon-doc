@@ -32,7 +32,7 @@ dataset to the cluster.
           the limit.
 4. Click "Submit" to create the job and submit it to the cluster.
 
-<video controls loading="lazy" src="./create-basic.webm">
+<video controls loading="lazy" src="./create-basic.webm" style="aspect-ratio: 16 / 9; width: 100%;">
 </video>
 
 ## Monitor a Job
@@ -64,7 +64,7 @@ Assuming the job is out of queue and running, you can monitor it by:
       current state of the job.
     - Resource: all resource used for running the job.
 
-<video controls loading="lazy" src="./monitor.webm">
+<video controls loading="lazy" src="./monitor.webm" style="aspect-ratio: 16 / 9; width: 100%;">
 </video>
 
 After the job has finished running:
@@ -85,5 +85,5 @@ a new job from scratch again.
 3. Click "Copy", this will recreate another job with filled details.
 4. Edit the detail, and then click "Submit" to send a new job.
 
-<video controls loading="lazy" src="./copy.webm">
+<video controls loading="lazy" src="./copy.webm" style="aspect-ratio: 16 / 9; width: 100%;">
 </video>
