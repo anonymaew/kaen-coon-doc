@@ -679,7 +679,7 @@ html:not(.js) .sidebar-resize-handle {
 
 .theme-popup {
     position: absolute;
-    left: 10px;
+    /* left: 10px; */
     top: var(--menu-bar-height);
     z-index: 1000;
     border-radius: 4px;
@@ -763,4 +763,18 @@ html:not(.js) .sidebar-resize-handle {
     text-align: center;
     /* mdbook's margin for h2 is way too large. */
     margin: 10px;
+}
+
+.icon-button#language-toggle {
+	padding: 0;
+}
+#language-list a {
+	color: inherit;
+}
+
+#language-toggle:focus + #language-list {
+	display: block;
+}
+#language-list:focus-within {
+	display: block;
 }
