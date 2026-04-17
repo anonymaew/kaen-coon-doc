@@ -18,6 +18,4 @@ preferred-dark-theme = "cpkku"
 site-url = "/kaen-coon/"
 
 [preprocessor.gettext]
-optional = true
-before = ["admonish"]
 after = ["links"]

@@ -1,11 +1,34 @@
 set quiet
 
 dev:
-  nix-shell -p mdbook --run "mdbook serve"
+	#!/usr/bin/env nix-shell
+	#!nix-shell -i bash -p gettext mdbook mdbook-i18n-helpers
+	# mdbook serve
+	MDBOOK_BOOK__LANGUAGE=th mdbook serve -d book/th
 
 build:
-  nix-shell -p mdbook --run "mdbook build"
-  # find book -name 'toc*.js' -print0 | xargs -0 sed -i 's@if (link.href === current_page@if (link.href.replace(/\.html$$/, "") === current_page.replace(/\.html$$/, "")@g'
+	#!/usr/bin/env nix-shell
+	#!nix-shell -i bash -p gettext mdbook mdbook-i18n-helpers
+	mdbook build
+	MDBOOK_BOOK__LANGUAGE=th mdbook build -d book/th
+	# find book -name 'toc*.js' -print0 | xargs -0 sed -i 's@if (link.href === current_page@if (link.href.replace(/\.html$$/, "") === current_page.replace(/\.html$$/, "")@g'
 
-deploy: build
-	rsync -avPh --delete book/ root@homelab:/var/lib/rancher/k3s/storage/pvc-61a4ef24-c4c1-49d0-bba9-404beed097cf_cpkku_kaen-coon-doc/kaen-coon/
+_gettext_init:
+	#!/usr/bin/env nix-shell
+	#!nix-shell -i bash -p gettext mdbook mdbook-i18n-helpers
+	MDBOOK_OUTPUT='{"xgettext": {}}' mdbook build -d po
+
+gettext_init: _gettext_init
+	#!/usr/bin/env nix-shell
+	#!nix-shell -i bash -p gettext mdbook mdbook-i18n-helpers
+	msginit -i po/messages.pot -l th -o po/th.po
+
+translate_update: _gettext_init
+	#!/usr/bin/env nix-shell
+	#!nix-shell -i bash -p gettext mdbook mdbook-i18n-helpers
+	msgmerge --update po/th.po po/messages.pot
+
+translate_report:
+	#!/usr/bin/env nix-shell
+	#!nix-shell -i bash -p gettext mdbook mdbook-i18n-helpers
+	i18n-report report --help #report.html po/th.po

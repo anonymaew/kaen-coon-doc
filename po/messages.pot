@@ -1,0 +1,787 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: Kaen-Coon AI Cluster Documentation\n"
+"POT-Creation-Date: 2026-04-17T13:43:37+07:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/SUMMARY.md:1
+msgid "Introduction"
+msgstr ""
+
+#: src/SUMMARY.md:2 src/introduction/glossary.md:1
+msgid "Glossary"
+msgstr ""
+
+#: src/SUMMARY.md:3
+msgid "Architecture"
+msgstr ""
+
+#: src/SUMMARY.md:4 src/users/index.md:1
+msgid "For Users"
+msgstr ""
+
+#: src/SUMMARY.md:5 src/users/files/index.md:1
+msgid "Files Operations"
+msgstr ""
+
+#: src/SUMMARY.md:6 src/users/job/index.md:1
+msgid "Submitting a Job"
+msgstr ""
+
+#: src/SUMMARY.md:7 src/users/container.md:1
+msgid "Creating a Container"
+msgstr ""
+
+#: src/SUMMARY.md:8 src/users/limitations.md:1
+msgid "Limitations"
+msgstr ""
+
+#: src/SUMMARY.md:9 src/users/frequent-problems.md:1
+msgid "Frequent Problems"
+msgstr ""
+
+#: src/SUMMARY.md:10 src/administrator/index.md:1
+msgid "For Administrator"
+msgstr ""
+
+#: src/SUMMARY.md:11 src/reference/index.md:1
+msgid "Reference"
+msgstr ""
+
+#: src/SUMMARY.md:12 src/contribute/index.md:1
+msgid "Contribute"
+msgstr ""
+
+#: src/introduction/index.md:1
+msgid "Kaen-Coon AI Cluster by College of Computing, Khon Kaen University"
+msgstr ""
+
+#: src/introduction/index.md:3
+msgid ""
+"**Kaen-Coon AI Cluster** is a high-performance computing platform (HPC), "
+"powered by Slurm and LiCO software, providing excellent resources for "
+"large-scale research and artificial intelligence workload. The documentation "
+"purpose is to serve a tutorial and a brief guide on using Kaen-Coon AI "
+"Cluster for both users and administrators."
+msgstr ""
+
+#: src/introduction/index.md:9
+msgid "Registration can be found [here](https://computing.kku.ac.th/h100)."
+msgstr ""
+
+#: src/introduction/index.md:11
+msgid "Eligibility"
+msgstr ""
+
+#: src/introduction/index.md:13
+msgid ""
+"College of Computing student: available only with **project proposal "
+"approved by the advisor** at no costs."
+msgstr ""
+
+#: src/introduction/index.md:15
+msgid "College of Computing researchers and lecturers: available with no costs."
+msgstr ""
+
+#: src/introduction/index.md:16
+msgid ""
+"Students within Khon Kaen University: available with **project proposal "
+"approved by the advisor** and hourly fees."
+msgstr ""
+
+#: src/introduction/index.md:18
+msgid ""
+"People outside Khon Kaen University: Not currently available. To be "
+"announced."
+msgstr ""
+
+#: src/introduction/index.md:20
+msgid "Contribution"
+msgstr ""
+
+#: src/introduction/index.md:22
+msgid "Please refer to [this page](../contribute)"
+msgstr ""
+
+#: src/introduction/glossary.md:3
+msgid ""
+"CUDA :Compute Unified Device Architecture. A computing platform specialized "
+"on parallel computation, which existed in NVIDIA GPU. Must interact via CUDA "
+"driver and CUDA framework in C++ (which includes Python)."
+msgstr ""
+
+#: src/introduction/glossary.md:8
+msgid "H100 :One of NVIDIA's industrial GPU (Blackwell generation) lineups.[^1]"
+msgstr ""
+
+#: src/introduction/glossary.md:11
+msgid "<https://www.nvidia.com/en-us/data-center/h100/>"
+msgstr ""
+
+#: src/introduction/glossary.md:13
+msgid ""
+"MIG :A partitioning system for NVIDIA GPU, allowing multiple instances "
+"running simultaneously on one GPU with on-premise performance. [^2]"
+msgstr ""
+
+#: src/introduction/glossary.md:17
+msgid "<https://www.nvidia.com/en-us/technologies/multi-instance-gpu/>"
+msgstr ""
+
+#: src/introduction/glossary.md:19
+msgid ""
+"Slurm :A workload management and jobs scheduling system for multiple "
+"computing nodes."
+msgstr ""
+
+#: src/introduction/glossary.md:23
+msgid ""
+"LiCO :Web-based software developed by Lenovo. It provides Slurm interaction "
+"points via web interface, unlike usual Slurm interaction via command lines."
+msgstr ""
+
+#: src/introduction/glossary.md:27
+msgid "Slurm Glossaries"
+msgstr ""
+
+#: src/introduction/glossary.md:29
+msgid ""
+"Job :A unit of workload for Slurm to process; usually expressed in a shell "
+"script."
+msgstr ""
+
+#: src/introduction/glossary.md:33
+msgid "Node :One single unit of computer within a cluster."
+msgstr ""
+
+#: src/introduction/glossary.md:36
+msgid "Cluster :A group of computing nodes."
+msgstr ""
+
+#: src/introduction/glossary.md:39
+msgid ""
+"Container :Operation-system-level virtualization with isolation from others "
+"processes. In Slurm, it is another way of getting any packages within the "
+"job environment."
+msgstr ""
+
+#: src/introduction/glossary.md:44
+msgid ""
+"Partition :A grouping of nodes. Each partition may have different "
+"specifications."
+msgstr ""
+
+#: src/introduction/glossary.md:47
+msgid ""
+"Queue :A waiting line for jobs. Some queues may have priorities (preemptive "
+"jobs) or access to specific partition of the cluster."
+msgstr ""
+
+#: src/introduction/glossary.md:51
+msgid ""
+"Wall Time :The maximum period of time allowed for a job to run. If the job "
+"is still running when running time exceeds the wall time, Slurm will stop "
+"the job immediately with `SIGTERM`."
+msgstr ""
+
+#: src/introduction/glossary.md:56
+msgid ""
+"Additional Slurm terminologies/concepts can be found "
+"[here](https://slurm.schedmd.com/overview.html#architecture)."
+msgstr ""
+
+#: src/introduction/architecture/index.md:1
+msgid "System Architecture"
+msgstr ""
+
+#: src/introduction/architecture/index.md:3
+msgid "`lico`: login node"
+msgstr ""
+
+#: src/introduction/architecture/index.md:4
+msgid "`cn1`: computing node"
+msgstr ""
+
+#: src/introduction/architecture/index.md:5
+#: src/introduction/architecture/index.md:12
+msgid "2x AMD EPYC 9224: 24 Core 2.5 GHz"
+msgstr ""
+
+#: src/introduction/architecture/index.md:6
+#: src/introduction/architecture/index.md:13
+msgid "16x 64 GB memory"
+msgstr ""
+
+#: src/introduction/architecture/index.md:7
+#: src/introduction/architecture/index.md:14
+msgid "2x 960GB M.2 NVMe SSD + 1x 15.36TB NVMe SSD"
+msgstr ""
+
+#: src/introduction/architecture/index.md:8
+#: src/introduction/architecture/index.md:15
+msgid "4x NVIDIA H100 80GB HBM3"
+msgstr ""
+
+#: src/introduction/architecture/index.md:9
+msgid "1 Full 80GB"
+msgstr ""
+
+#: src/introduction/architecture/index.md:10
+msgid "3 (7x 10GB MIGs)"
+msgstr ""
+
+#: src/introduction/architecture/index.md:11
+msgid "`cn2`: computing node"
+msgstr ""
+
+#: src/introduction/architecture/index.md:16
+msgid "4 Full 80GB"
+msgstr ""
+
+#: src/introduction/architecture/index.md:18
+msgid "![Cluster nodes diagram](./diagram.webp)"
+msgstr ""
+
+#: src/users/index.md:3
+msgid ""
+"To interact with the cluster, go to <https://10.198.253.15:8000>. All "
+"operations will happen on the website via web interface."
+msgstr ""
+
+#: src/users/index.md:6 src/users/index.md:12
+msgid "\\[!NOTE\\]"
+msgstr ""
+
+#: src/users/index.md:8
+msgid ""
+"Currently, the cluster portal is operated with a **self-signed "
+"certificate**. The browser might see the website as a potential threat. "
+"However, it is safe to proceed."
+msgstr ""
+
+#: src/users/index.md:14
+msgid ""
+"Make sure that you already obtained username/password for the cluster. "
+"Registration can be found [here](https://computing.kku.ac.th/h100)."
+msgstr ""
+
+#: src/users/index.md:20
+msgid ""
+"Before running a program, we must [upload scripts and "
+"data](./files/index.html) to the cluster first. When we start running "
+"programs, we have something to run and calculate."
+msgstr ""
+
+#: src/users/index.md:24
+msgid ""
+"Then, we can [creating/submitting a job](./job.html) completing desired "
+"workload."
+msgstr ""
+
+#: src/users/index.md:26
+msgid ""
+"However, when the job needs specific environments, we can [create containers "
+"and operate under containers](./container.html) allowing the script to use "
+"custom programs."
+msgstr ""
+
+#: src/users/files/index.md:3
+msgid ""
+"LiCO allows access to the tree view of file directories, making it easy for "
+"file operations on web interface."
+msgstr ""
+
+#: src/users/files/index.md:6
+msgid ""
+"Click ![console icon](./console-icon.webp) button on the upper right "
+"navigation bar."
+msgstr ""
+
+#: src/users/files/index.md:7
+msgid ""
+"If the file tree does not appear, click ![expanding "
+"tab](./expanding-tab.webp) on the lower left side."
+msgstr ""
+
+#: src/users/files/index.md:9
+msgid "The file tree should appear on the left side."
+msgstr ""
+
+#: src/users/files/index.md:14
+msgid "Creating/Uploading files"
+msgstr ""
+
+#: src/users/files/index.md:16
+msgid ""
+"Click on ![create directory and file icon](./create-icon.webp) to either "
+"create a directory or a file on that path."
+msgstr ""
+
+#: src/users/files/index.md:19
+msgid ""
+"We can drag and drop files/directories from your computer to the file tree "
+"window as well. The file(s) will automatically transfer from your computer "
+"to the cluster."
+msgstr ""
+
+#: src/users/files/index.md:23
+msgid "Editing files"
+msgstr ""
+
+#: src/users/files/index.md:25
+msgid "Right-click on the file inside the file tree."
+msgstr ""
+
+#: src/users/files/index.md:26
+msgid "Select \"Edit\"."
+msgstr ""
+
+#: src/users/files/index.md:27
+msgid "The web will show a buffer window. Edit it."
+msgstr ""
+
+#: src/users/files/index.md:28
+msgid "Click \"Save\" to save the change."
+msgstr ""
+
+#: src/users/files/index.md:30 src/users/job/index.md:51
+msgid "\\[!TIP\\]"
+msgstr ""
+
+#: src/users/files/index.md:32
+msgid ""
+"It is more convenient to edit the file(s) in your computer with your desired "
+"IDE and later overwrite the file(s) on the cluster by uploading."
+msgstr ""
+
+#: src/users/files/index.md:35
+msgid "Deleting files"
+msgstr ""
+
+#: src/users/files/index.md:37
+msgid "Select the file(s) to be deleted from the file tree."
+msgstr ""
+
+#: src/users/files/index.md:38
+msgid "Click ![delete icon](./delete-icon.webp) button."
+msgstr ""
+
+#: src/users/files/index.md:39
+msgid "Confirm deletion."
+msgstr ""
+
+#: src/users/files/index.md:41
+msgid "Advanced"
+msgstr ""
+
+#: src/users/files/index.md:43
+msgid ""
+"Since the cluster is based on Slurm, files can be transferred directly via "
+"`scp` or `rsync` programs as another remote server."
+msgstr ""
+
+#: src/users/files/index.md:54
+msgid ""
+"Interactive files editing on the cluster can also be done with `ssh` with "
+"given credentials."
+msgstr ""
+
+#: src/users/job/index.md:3
+msgid "Create a Job"
+msgstr ""
+
+#: src/users/job/index.md:5
+msgid ""
+"Before creating a job, you may want to [transfer](./files) some script(s) "
+"and dataset to the cluster."
+msgstr ""
+
+#: src/users/job/index.md:8
+msgid "Go to the menu item \"Job Templates\" on the left side."
+msgstr ""
+
+#: src/users/job/index.md:9
+msgid ""
+"Select a suitable template for your job (Common Job). Here are some details "
+"for frequently-used templates:"
+msgstr ""
+
+#: src/users/job/index.md:11
+msgid "**Common Job**: cover most of the need of running bare scripts."
+msgstr ""
+
+#: src/users/job/index.md:12
+msgid "**Singularity**: be able to run jobs with custom containers."
+msgstr ""
+
+#: src/users/job/index.md:13
+msgid "**PyTorch**: expose PyTorch library for the job to use."
+msgstr ""
+
+#: src/users/job/index.md:14
+msgid "Fill up the job detail:"
+msgstr ""
+
+#: src/users/job/index.md:15
+msgid "Template Information:"
+msgstr ""
+
+#: src/users/job/index.md:16
+msgid "Job Name: the job name. Must be alphanumeric including underscore."
+msgstr ""
+
+#: src/users/job/index.md:17
+msgid ""
+"Workspace: the directory that the job will start. Log files will be also "
+"generated here."
+msgstr ""
+
+#: src/users/job/index.md:19
+msgid "Resource Options:"
+msgstr ""
+
+#: src/users/job/index.md:20
+msgid "Queue: choose your allowed queue."
+msgstr ""
+
+#: src/users/job/index.md:21
+msgid ""
+"Exclusive: whether to disallow other jobs running on the same node. **Keep "
+"the box empty**."
+msgstr ""
+
+#: src/users/job/index.md:23
+msgid "Node: the number of computers to run the job; usually `1`."
+msgstr ""
+
+#: src/users/job/index.md:24
+msgid ""
+"CPU Cores Per Node: the number of CPU cores per computer to run. Must be "
+"under the limit."
+msgstr ""
+
+#: src/users/job/index.md:26
+msgid "GPU per Node: either `0` or `1`."
+msgstr ""
+
+#: src/users/job/index.md:27
+msgid "GPU Per Node: the number of GPU per computer to run; usually `1`."
+msgstr ""
+
+#: src/users/job/index.md:28
+msgid ""
+"GPU Resource Type: `gpu:STU_GPU` if you are a student (MIG). `gpu:Full_GPU` "
+"if you are lecturer/researcher."
+msgstr ""
+
+#: src/users/job/index.md:30
+msgid "Memory Used: the memory per job in `MB`. Must be under the limit."
+msgstr ""
+
+#: src/users/job/index.md:31
+msgid ""
+"Wall Time: the maximum duration the job allowed to run. Must be under the "
+"limit."
+msgstr ""
+
+#: src/users/job/index.md:33
+msgid "Click \"Submit\" to create the job and submit it to the cluster."
+msgstr ""
+
+#: src/users/job/index.md:38
+msgid "Monitor a Job"
+msgstr ""
+
+#: src/users/job/index.md:40
+msgid ""
+"After submitting a job, the job will go through a queue and being run by a "
+"node."
+msgstr ""
+
+#: src/users/job/index.md:42
+msgid ""
+"Most of monitoring will be in the page of the menu item \"Job Monitoring\" "
+"on the left side. After entering, there will be 3 sections."
+msgstr ""
+
+#: src/users/job/index.md:45
+msgid "![Queue type](./queue-types.webp)"
+msgstr ""
+
+#: src/users/job/index.md:47
+msgid "Running: jobs currently being run by nodes will be shown here."
+msgstr ""
+
+#: src/users/job/index.md:48
+msgid "Waiting: jobs being held in a queue."
+msgstr ""
+
+#: src/users/job/index.md:49
+msgid "Completed: history of jobs already run."
+msgstr ""
+
+#: src/users/job/index.md:53
+msgid ""
+"To inspect why your job is currently queueing, go to \"Waiting\" tab, click "
+"on the waiting job's scheduler ID, and inspect on the value of `Reason` "
+"variable. In normal circumstances, the value should be `normal`."
+msgstr ""
+
+#: src/users/job/index.md:57
+msgid "Assuming the job is out of queue and running, you can monitor it by:"
+msgstr ""
+
+#: src/users/job/index.md:59
+msgid ""
+"Click \"Running\" tab. There will be your jobs that are running (if already "
+"passed the queue)."
+msgstr ""
+
+#: src/users/job/index.md:61
+msgid ""
+"Click on **the job name** to see further details of the running job. There "
+"will be tabs on each aspect of the detail."
+msgstr ""
+
+#: src/users/job/index.md:63
+msgid ""
+"Log: shows all `stdout` from the running job. Useful for tracking the "
+"current state of the job."
+msgstr ""
+
+#: src/users/job/index.md:65
+msgid "Resource: all resource used for running the job."
+msgstr ""
+
+#: src/users/job/index.md:70
+msgid "After the job has finished running:"
+msgstr ""
+
+#: src/users/job/index.md:72
+msgid "Click \"Completed\" tab. You will see the history of completed jobs"
+msgstr ""
+
+#: src/users/job/index.md:73
+msgid "Click on the job name to see further details of that job."
+msgstr ""
+
+#: src/users/job/index.md:74
+msgid "Click \"Log\" tab to show completed `stdout` from that job."
+msgstr ""
+
+#: src/users/job/index.md:76
+msgid "Copy a Job"
+msgstr ""
+
+#: src/users/job/index.md:78
+msgid ""
+"In case you want to rerun the job or modify a few job details, you can "
+"quickly copy the detail reference from the previous job, so you do not have "
+"to recreate a new job from scratch again."
+msgstr ""
+
+#: src/users/job/index.md:82
+msgid ""
+"Go to either \"Running\", \"Waiting\", or \"Completed\" tab; the one that "
+"has the job."
+msgstr ""
+
+#: src/users/job/index.md:84
+msgid "Click \"Action\" button on the right side of the job you intend to copy."
+msgstr ""
+
+#: src/users/job/index.md:85
+msgid "Click \"Copy\", this will recreate another job with filled details."
+msgstr ""
+
+#: src/users/job/index.md:86
+msgid "Edit the detail, and then click \"Submit\" to send a new job."
+msgstr ""
+
+#: src/users/container.md:3 src/administrator/index.md:3
+msgid "To be added."
+msgstr ""
+
+#: src/users/limitations.md:3
+msgid "Here are current resource limitations for each user roles."
+msgstr ""
+
+#: src/users/limitations.md:5
+msgid "Resource"
+msgstr ""
+
+#: src/users/limitations.md:5
+msgid "Student"
+msgstr ""
+
+#: src/users/limitations.md:5
+msgid "Researcher/Lecturer"
+msgstr ""
+
+#: src/users/limitations.md:7
+msgid "CPU/Job"
+msgstr ""
+
+#: src/users/limitations.md:7
+msgid "3 cores"
+msgstr ""
+
+#: src/users/limitations.md:7
+msgid "16 cores"
+msgstr ""
+
+#: src/users/limitations.md:8
+msgid "Memory/Job"
+msgstr ""
+
+#: src/users/limitations.md:8
+msgid "TBD"
+msgstr ""
+
+#: src/users/limitations.md:8
+msgid "36 GiB"
+msgstr ""
+
+#: src/users/limitations.md:9
+msgid "[Wall Time](../introduction/glossary.html#wall-time)"
+msgstr ""
+
+#: src/users/limitations.md:9
+msgid "3 Hours"
+msgstr ""
+
+#: src/users/limitations.md:9
+msgid "5 Days"
+msgstr ""
+
+#: src/users/limitations.md:10
+msgid "GPU/Job"
+msgstr ""
+
+#: src/users/limitations.md:10
+msgid "1 [MIG](../introduction/glossary.html#mig)"
+msgstr ""
+
+#: src/users/limitations.md:10
+msgid "1 Full Card"
+msgstr ""
+
+#: src/users/limitations.md:15
+msgid "\\[!IMPORTANT\\]"
+msgstr ""
+
+#: src/users/limitations.md:17
+msgid ""
+"Make sure that your job's resource requests do not exceed the given "
+"limitation. **The job might be stuck forever** in `Queueing` if the "
+"requested resource exceed the limitation of your quotas."
+msgstr ""
+
+#: src/users/frequent-problems.md:3
+msgid "Why does my submitted job appear to stuck in the queue forever?"
+msgstr ""
+
+#: src/users/frequent-problems.md:5
+msgid ""
+"One way to diagnose the problem is to click on the `Scheduler ID` and look "
+"at the scheduler's description. If the `Reason` variable equals to:"
+msgstr ""
+
+#: src/users/frequent-problems.md:8
+msgid ""
+"`QOSMaxWallDurationPerJobLimit`: Your job requested wall time for too long "
+"and will stick in the queue forever. Please cancel the current job, copy the "
+"job, and adjust the wall time to be under your role's "
+"[limitations](./limitations.html)."
+msgstr ""
+
+#: src/users/frequent-problems.md:13
+msgid "Why my job cannot use existing GPU?"
+msgstr ""
+
+#: src/users/frequent-problems.md:15
+msgid ""
+"Especially for students groups, only MIG GPUs are allowed. By default, your "
+"script is not usually specified to use MIG GPUs for computation, but full "
+"GPUs. As the job is only allocated for MIG GPUs, requesting a full GPU "
+"inside might be problematic. To make your job use MIG GPUs, some "
+"environmental declarations are needed. In this case, we specify \"CUDA "
+"devices\" to be a MIG GPU via declaring `CUDA_VISIBLE_DEVICES` environment "
+"variable as a MIG GPU ID. You can copy this line of the script before the "
+"execution line of the program."
+msgstr ""
+
+#: src/users/frequent-problems.md:24
+msgid ""
+"$(\n"
+"    nvidia-smi -L | \\\n"
+"        grep -Eo 'MIG-[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}' | \\\n"
+"        head -n 1\n"
+")\n"
+msgstr ""
+
+#: src/users/frequent-problems.md:31
+msgid ""
+"The script basically lists all available GPUs with UUID. Then, we grab the "
+"first MIG GPU ID (the one Slurm allocates for us), and declaring it the CUDA "
+"device to be used."
+msgstr ""
+
+#: src/reference/index.md:3
+msgid ""
+"Cluster Manual for Researcher, by PTOA: [Thai "
+"PDF](./assets/h100-manual-researcher.pdf)"
+msgstr ""
+
+#: src/reference/index.md:4
+msgid ""
+"Cluster Manual for Students, by PTOA: [Thai "
+"PDF](./assets/h100-manual-student.pdf)"
+msgstr ""
+
+#: src/contribute/index.md:3
+msgid ""
+"The whole documentation is written in markdown files at "
+"<https://github.com/anonymaew/kaen-coon-doc>."
+msgstr ""
+
+#: src/contribute/index.md:6
+msgid ""
+"If you find a page missing some information and need some edits, you can "
+"edit the page by clicking the pencil icon in the top right corner. This will "
+"fork the repo, allowing you to edit the documentation. Then, please submit a "
+"pull request as well."
+msgstr ""
+
+#: src/contribute/index.md:11
+msgid ""
+"You are also welcomed to leave comments and suggestions without writing the "
+"documentation by [creating new "
+"issue](https://github.com/anonymaew/kaen-coon-doc/issues/new)."
+msgstr ""
+
+#: src/contribute/index.md:15
+msgid "Workflow"
+msgstr ""
+
+#: src/contribute/index.md:17
+msgid "Documentation platform: [`mdbook`](https://rust-lang.github.io/mdBook/)"
+msgstr ""
+
+#: src/contribute/index.md:18
+msgid "Written in Markdown on `src` directory."
+msgstr ""
+
+#: src/contribute/index.md:19
+msgid ""
+"i18n: [`mdbook-i18n-helpers`](https://github.com/google/mdbook-i18n-helpers)"
+msgstr ""
+

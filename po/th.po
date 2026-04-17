@@ -1,0 +1,885 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kaen-Coon AI Cluster Documentation\n"
+"POT-Creation-Date: 2026-04-17T13:36:19+07:00\n"
+"PO-Revision-Date: 2026-04-07 17:01+0700\n"
+"Last-Translator: Napat Srichan <me@napatsc.com>\n"
+"Language-Team: Thai <(nothing)>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/SUMMARY.md:1
+msgid "Introduction"
+msgstr "เริ่มต้น"
+
+#: src/SUMMARY.md:2 src/introduction/glossary.md:1
+msgid "Glossary"
+msgstr "ศัพท์เฉพาะ"
+
+#: src/SUMMARY.md:3
+msgid "Architecture"
+msgstr "โครงสร้างระบบ"
+
+#: src/SUMMARY.md:4 src/users/index.md:1
+msgid "For Users"
+msgstr "สำหรับผู้ใช้งาน"
+
+#: src/SUMMARY.md:5 src/users/files/index.md:1
+msgid "Files Operations"
+msgstr "การจัดการกับไฟล์"
+
+#: src/SUMMARY.md:6 src/users/job/index.md:1
+msgid "Submitting a Job"
+msgstr "การส่ง Job"
+
+#: src/SUMMARY.md:7 src/users/container.md:1
+msgid "Creating a Container"
+msgstr "การสร้าง Container"
+
+#: src/SUMMARY.md:8 src/users/limitations.md:1
+msgid "Limitations"
+msgstr "ข้อจำกัด"
+
+#: src/SUMMARY.md:9 src/users/frequent-problems.md:1
+msgid "Frequent Problems"
+msgstr "ปัญหาที่พบบ่อย"
+
+#: src/SUMMARY.md:10 src/administrator/index.md:1
+msgid "For Administrator"
+msgstr "สำหรับผู้ดูแลระบบ"
+
+#: src/SUMMARY.md:11 src/reference/index.md:1
+msgid "Reference"
+msgstr "เอกสารอ้างอิง"
+
+#: src/SUMMARY.md:12 src/contribute/index.md:1
+msgid "Contribute"
+msgstr "ให้ความช่วยเหลือ"
+
+#: src/introduction/index.md:1
+msgid "Kaen-Coon AI Cluster by College of Computing, Khon Kaen University"
+msgstr "แก่นคูณ (Kaen-Coon) AI Cluster โดย วิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น"
+
+#: src/introduction/index.md:3
+msgid ""
+"**Kaen-Coon AI Cluster** is a high-performance computing platform (HPC), "
+"powered by Slurm and LiCO software, providing excellent resources for large-"
+"scale research and artificial intelligence workload. The documentation "
+"purpose is to serve a tutorial and a brief guide on using Kaen-Coon AI "
+"Cluster for both users and administrators."
+msgstr ""
+"**Kaen-Coon AI Cluster** เป็นแพลตฟอร์มคอมพิวเตอร์ประสิทธิภาพสูง (high-performance "
+"computing; HPC) ขับเคลื่อนด้วยซอฟต์แวร์ Slurm และ LiCO "
+"ซึ่งมีทรัพยากรที่เหมาะสมสำหรับงานวิจัยขนาดใหญ่และคำนวณงานปัญญาประดิษฐ์ "
+"เอกสารนี้มีวัตถุประสงค์เพื่อทำหน้าที่เป็นคู่มือแนะนำและเป็นแนวทางสั้น ๆ สำหรับการใช้งาน Kaen-"
+"Coon AI Cluster สำหรับทั้งผู้ใช้งานและผู้ดูแลระบบ"
+
+#: src/introduction/index.md:9
+msgid "Registration can be found [here](https://computing.kku.ac.th/h100)."
+msgstr "สามารถลงทะเบียนใช้งานได้[ที่นี่](https://computing.kku.ac.th/h100)"
+
+#: src/introduction/index.md:11
+msgid "Eligibility"
+msgstr "คุณสมบัติผู้ใช้งาน"
+
+#: src/introduction/index.md:13
+msgid ""
+"College of Computing student: available only with **project proposal "
+"approved by the advisor** at no costs."
+msgstr ""
+"นักศึกษาวิทยาลัยการคอมพิวเตอร์: "
+"มีสิทธิ์ใช้ในกรณีที่มี**โครงงานวิจัยผ่านการอนุมัติจากที่ปรึกษาเท่านั้น** โดยไม่มีค่าใช้จ่าย"
+
+#: src/introduction/index.md:15
+msgid ""
+"College of Computing researchers and lecturers: available with no costs."
+msgstr "นักวิจัย บุคลากรวิทยาลัยการคอมพิวเตอร์: มีสิทธิ์ใช้โดยไม่มีค่าใช้จ่าย"
+
+#: src/introduction/index.md:16
+msgid ""
+"Students within Khon Kaen University: available with **project proposal "
+"approved by the advisor** and hourly fees."
+msgstr ""
+"นักศึกษาภายในมหาวิทยาลัยขอนแก่น: "
+"มีสิทธิ์ใช้ในกรณีที่มี**โครงงานวิจัยผ่านการอนุมัติจากที่ปรึกษาเท่านั้น** และมีการชำระค่ารายชั่วโมง "
+
+#: src/introduction/index.md:18
+msgid ""
+"People outside Khon Kaen University: Not currently available. To be "
+"announced."
+msgstr "บุคคลภายนอกมหาวิทยาลัยขอนแก่น: ยังไม่เปิดให้บริการในปัจจุบัน จะประกาศแจ้งในภายหลัง"
+
+#: src/introduction/index.md:20
+msgid "Contribution"
+msgstr "การให้ความช่วยเหลือ"
+
+#: src/introduction/index.md:22
+msgid "Please refer to [this page](../contribute)"
+msgstr "โปรดไปที่[หน้านี้](../contribute)"
+
+#: src/introduction/glossary.md:3
+msgid ""
+"CUDA :Compute Unified Device Architecture. A computing platform specialized "
+"on parallel computation, which existed in NVIDIA GPU. Must interact via CUDA "
+"driver and CUDA framework in C++ (which includes Python)."
+msgstr ""
+"CUDA :Compute Unified Device Architecture "
+"แพลตฟอร์มคอมพิวเตอร์ที่เชี่ยวชาญในการคำนวณแบบขนาน ซึ่งติดตั้งบน GPU ของ NVIDIA "
+"จำเป็นต้องสื่อสารผ่านไดรเวอร์ CUDA และเฟรมเวิร์ก CUDA ในภาษา C++ (ซึ่งรวมถึง Python ด้วย)"
+
+#: src/introduction/glossary.md:8
+msgid ""
+"H100 :One of NVIDIA's industrial GPU (Blackwell generation) lineups.[^1]"
+msgstr "H100 :การ์ดจอระดับอุตสาหกรรมรุ่นหนึ่งจาก NVIDIA (รุ่น Blackwell) [^1]"
+
+#: src/introduction/glossary.md:11
+msgid "<https://www.nvidia.com/en-us/data-center/h100/>"
+msgstr "<https://www.nvidia.com/en-us/data-center/h100/>"
+
+#: src/introduction/glossary.md:13
+msgid ""
+"MIG :A partitioning system for NVIDIA GPU, allowing multiple instances "
+"running simultaneously on one GPU with on-premise performance. [^2]"
+msgstr ""
+"MIG: ระบบการแบ่งส่วนสำหรับการ์ดจอของ NVIDIA "
+"ที่อนุญาตให้รันงานหลายตัวพร้อมกันบนการ์ดจอเดียวกันโดยได้ประสิทธิภาพคงที่และแน่นอน [^2]"
+
+#: src/introduction/glossary.md:17
+msgid "<https://www.nvidia.com/en-us/technologies/multi-instance-gpu/>"
+msgstr "<https://www.nvidia.com/en-us/technologies/multi-instance-gpu/>"
+
+#: src/introduction/glossary.md:19
+msgid ""
+"Slurm :A workload management and jobs scheduling system for multiple "
+"computing nodes."
+msgstr ""
+"Slurm :ระบบจัดการเวิร์กโหลดและระบบจัดตารางงานสำหรับคอมพิวเตอร์โหนด (computing "
+"nodes) จำนวนมาก"
+
+#: src/introduction/glossary.md:23
+msgid ""
+"LiCO :Web-based software developed by Lenovo. It provides Slurm interaction "
+"points via web interface, unlike usual Slurm interaction via command lines."
+msgstr ""
+"LiCO :ซอฟต์แวร์บนเว็บที่พัฒนาโดย Lenovo ซึ่งช่วยให้สามารถโต้ตอบกับ Slurm ผ่านเว็บได้ "
+"ต่างจากการใช้งาน Slurm ตามปกติที่ต้องทำผ่าน command line"
+
+#: src/introduction/glossary.md:27
+msgid "Slurm Glossaries"
+msgstr "ศัพท์เฉพาะ Slurm"
+
+#: src/introduction/glossary.md:29
+msgid ""
+"Job :A unit of workload for Slurm to process; usually expressed in a shell "
+"script."
+msgstr ""
+"Job :หน่วยของงานที่ Slurm จะดำเนินการประมวลผล โดยปกติจะเขียนอยู่ในรูปแบบ shell script"
+
+#: src/introduction/glossary.md:33
+msgid "Node :One single unit of computer within a cluster."
+msgstr "Node :หน่วยคอมพิวเตอร์หนึ่งเครื่องภายในคลัสเตอร์"
+
+#: src/introduction/glossary.md:36
+msgid "Cluster :A group of computing nodes."
+msgstr "Cluster :หน่วยกลุ่มของโหนดคอมพิวเตอร์"
+
+#: src/introduction/glossary.md:39
+msgid ""
+"Container :Operation-system-level virtualization with isolation from others "
+"processes. In Slurm, it is another way of getting any packages within the "
+"job environment."
+msgstr ""
+"Container :การทำ Virtualization ในระดับระบบปฏิบัติการที่มีการแยกส่วน (isolation) "
+"ออกจากกระบวนการ (processes) อื่น ๆ ในส่วนของ Slurm "
+"คอนเทนเนอร์เป็นอีกวิธีหนึ่งในการติดตั้งแพ็กเกจต่าง ๆ ภายในสภาพแวดล้อม Job นั้น ๆ"
+
+#: src/introduction/glossary.md:44
+msgid ""
+"Partition :A grouping of nodes. Each partition may have different "
+"specifications."
+msgstr ""
+"Partition :การจัดกลุ่มแยกของโหนด โดยแต่ละ partition อาจมีคุณสมบัติทางเทคนิคที่แตกต่างกัน"
+
+#: src/introduction/glossary.md:47
+msgid ""
+"Queue :A waiting line for jobs. Some queues may have priorities (preemptive "
+"jobs) or access to specific partition of the cluster."
+msgstr ""
+"Queue :คิวรอสำหรับ Job โดยคิวบางอย่างอาจมีลำดับความสำคัญ (preemptive jobs) "
+"หรือสามารถเข้าถึง partition เฉพาะของคลัสเตอร์ได้"
+
+#: src/introduction/glossary.md:51
+msgid ""
+"Wall Time :The maximum period of time allowed for a job to run. If the job "
+"is still running when running time exceeds the wall time, Slurm will stop "
+"the job immediately with `SIGTERM`."
+msgstr ""
+"Wall Time :ระยะเวลาสูงสุดที่อนุญาตให้ Job รันได้ หาก Job ยังคงรันอยู่เมื่อเวลาเกิน wall "
+"time ที่กำหนด Slurm จะหยุดการทำงานของ Job ทันทีด้วย `SIGTERM`"
+
+#: src/introduction/glossary.md:56
+msgid ""
+"Additional Slurm terminologies/concepts can be found [here](https://"
+"slurm.schedmd.com/overview.html#architecture)."
+msgstr ""
+"สามารถดูคำศัพท์หรือแนวคิดเพิ่มเติมเกี่ยวกับ Slurm ได้ [ที่นี่](https://slurm.schedmd.com/"
+"overview.html#architecture)"
+
+#: src/introduction/architecture/index.md:1
+msgid "System Architecture"
+msgstr "โครงสร้างระบบ"
+
+#: src/introduction/architecture/index.md:3
+msgid "`lico`: login node"
+msgstr "`lico`: login node"
+
+#: src/introduction/architecture/index.md:4
+msgid "`cn1`: computing node"
+msgstr "`cn1`: computing node"
+
+#: src/introduction/architecture/index.md:5
+#: src/introduction/architecture/index.md:12
+msgid "2x AMD EPYC 9224: 24 Core 2.5 GHz"
+msgstr "2x AMD EPYC 9224: 24 Core 2.5 GHz"
+
+#: src/introduction/architecture/index.md:6
+#: src/introduction/architecture/index.md:13
+msgid "16x 64 GB memory"
+msgstr "16x 64 GB memory"
+
+#: src/introduction/architecture/index.md:7
+#: src/introduction/architecture/index.md:14
+msgid "2x 960GB M.2 NVMe SSD + 1x 15.36TB NVMe SSD"
+msgstr "2x 960GB M.2 NVMe SSD + 1x 15.36TB NVMe SSD"
+
+#: src/introduction/architecture/index.md:8
+#: src/introduction/architecture/index.md:15
+msgid "4x NVIDIA H100 80GB HBM3"
+msgstr "4x NVIDIA H100 80GB HBM3"
+
+#: src/introduction/architecture/index.md:9
+msgid "1 Full 80GB"
+msgstr "1 Full 80GB"
+
+#: src/introduction/architecture/index.md:10
+msgid "3 (7x 10GB MIGs)"
+msgstr "3 (7x 10GB MIGs)"
+
+#: src/introduction/architecture/index.md:11
+msgid "`cn2`: computing node"
+msgstr "`cn2`: computing node"
+
+#: src/introduction/architecture/index.md:16
+msgid "4 Full 80GB"
+msgstr "4 Full 80GB"
+
+#: src/introduction/architecture/index.md:18
+msgid "![Cluster nodes diagram](./diagram.webp)"
+msgstr "![แผนภาพ Cluster](./diagram.webp)"
+
+#: src/users/index.md:3
+msgid ""
+"To interact with the cluster, go to <https://10.198.253.15:8000>. All "
+"operations will happen on the website via web interface."
+msgstr ""
+"เมื่อต้องการเข้าถึงคลัสเตอร์ ให้ไปที่ <https://10.198.253.15:8000> "
+"การดำเนินงานทั้งหมดจะเกิดขึ้นบนเว็บไซต์"
+
+#: src/users/index.md:6 src/users/index.md:12
+msgid "\\[!NOTE\\]"
+msgstr "\\[!NOTE\\]"
+
+#: src/users/index.md:8
+msgid ""
+"Currently, the cluster portal is operated with a **self-signed "
+"certificate**. The browser might see the website as a potential threat. "
+"However, it is safe to proceed."
+msgstr ""
+"ปัจจุบัน หน้าเว็บเข้าคลัสเตอร์ใช้ **self-signed certificate** "
+"บราวเซอร์อาจแสดงเว็บไซต์ว่าเป็นภัยคุกคามได้ อย่างไรก็ตาม สามารถดำเนินการต่อได้อย่างปลอดภัย"
+
+#: src/users/index.md:14
+msgid ""
+"Make sure that you already obtained username/password for the cluster. "
+"Registration can be found [here](https://computing.kku.ac.th/h100)."
+msgstr ""
+"ให้แน่ใจว่าคุณได้ได้รับชื่อผู้ใช้และรหัสผ่านสำหรับคลัสเตอร์แล้ว คุณสามารถลงทะเบียนใช้งานได้[ที่นี่]"
+"(https://computing.kku.ac.th/h100)"
+
+#: src/users/index.md:20
+msgid ""
+"Before running a program, we must [upload scripts and data](./files/"
+"index.html) to the cluster first. When we start running programs, we have "
+"something to run and calculate."
+msgstr ""
+"ก่อนรันโปรแกรม เราอาจต้อง[อัปโหลดสคริปต์และข้อมูล](./files/index.html)ไปยังคลัสเตอร์ก่อน "
+"เมื่อเราเริ่มรันโปรแกรม จึงจะมีสคริปต์ที่สำหรับให้รันและทำการคำนวณ "
+
+#: src/users/index.md:24
+msgid ""
+"Then, we can [creating/submitting a job](./job.html) completing desired "
+"workload."
+msgstr "จากนั้น เราสามารถ[สร้าง/ส่ง Job](./job.html) เพื่อดำเนินงานตามที่ต้องการให้เสร็จสิ้น"
+
+#: src/users/index.md:26
+msgid ""
+"However, when the job needs specific environments, we can [create containers "
+"and operate under containers](./container.html) allowing the script to use "
+"custom programs."
+msgstr ""
+"อย่างไรก็ตาม เมื่อ Job เราต้องการสภาพแวดล้อมแบบเฉพาะ "
+"เราสามารถ[สร้างคอนเทนเนอร์และรันภายใต้คอนเทนเนอร์](./container.html) "
+"เพื่อให้สคริปต์สามารถรันโปรแกรมอื่น ๆ ใช้เองได้"
+
+#: src/users/files/index.md:3
+msgid ""
+"LiCO allows access to the tree view of file directories, making it easy for "
+"file operations on web interface."
+msgstr "LiCO มีมุมมองการอ่านไฟล์แบบเรียง ช่วยให้สามารถทำงานกับไฟล์ผ่านหน้าเว็บได้ง่ายดาย"
+
+#: src/users/files/index.md:6
+msgid ""
+"Click ![console icon](./console-icon.webp) button on the upper right "
+"navigation bar."
+msgstr "คลิกปุ่ม![ไอคอนคอนโซล](./console-icon.webp) ที่มุมขวาบนของแถบนำทาง"
+
+#: src/users/files/index.md:7
+msgid ""
+"If the file tree does not appear, click ![expanding tab](./expanding-"
+"tab.webp) on the lower left side."
+msgstr "หากแถบไฟล์ยังไม่แสดง ให้คลิกปุ่ม![แท็บขยาย](./expanding-tab.webp) ที่ด้านซ้ายล่าง"
+
+#: src/users/files/index.md:9
+msgid "The file tree should appear on the left side."
+msgstr "แถบไฟล์จะแสดงที่ด้านซ้าย"
+
+#: src/users/files/index.md:14
+msgid "Creating/Uploading files"
+msgstr "สร้าง/อัพโหลดไฟล์"
+
+#: src/users/files/index.md:16
+msgid ""
+"Click on ![create directory and file icon](./create-icon.webp) to either "
+"create a directory or a file on that path."
+msgstr ""
+"คลิกปุ่ม![ไอคอนสร้างไดเร็กทอรี่และไฟล์](./create-icon.webp) "
+"เพื่อสร้างไดเร็กทอร์หรือไฟล์ตามลำดับ"
+
+#: src/users/files/index.md:19
+msgid ""
+"We can drag and drop files/directories from your computer to the file tree "
+"window as well. The file(s) will automatically transfer from your computer "
+"to the cluster."
+msgstr ""
+"เราสามารถลากและวางไฟล์/ไดเร็กทอรี่จากคอมพิวเตอร์ของเราไปยังแถบไฟล์ได้ "
+"ไฟล์จะถูกโอนย้ายจากคอมพิวเตอร์ไปยังคลัสเตอร์โดยอัตโนมัติ"
+
+#: src/users/files/index.md:23
+msgid "Editing files"
+msgstr "แก้ไขไฟล์"
+
+#: src/users/files/index.md:25
+msgid "Right-click on the file inside the file tree."
+msgstr "คลิกขวาที่ไฟล์ภายในแถบไฟล์"
+
+#: src/users/files/index.md:26
+msgid "Select \"Edit\"."
+msgstr "เลือก \"แก้ไข\""
+
+#: src/users/files/index.md:27
+msgid "The web will show a buffer window. Edit it."
+msgstr "หน้าเว็บจะแสดงหน้าต่างแก้ไขไฟล์ (buffer window) ขึ้นมา ให้ทำการแก้ไขที่นั่น"
+
+#: src/users/files/index.md:28
+msgid "Click \"Save\" to save the change."
+msgstr "คลิก \"บันทึก\" เพื่อบันทึกการเปลี่ยนแปลง"
+
+#: src/users/files/index.md:30 src/users/job/index.md:51
+msgid "\\[!TIP\\]"
+msgstr "\\[!TIP\\]"
+
+#: src/users/files/index.md:32
+msgid ""
+"It is more convenient to edit the file(s) in your computer with your desired "
+"IDE and later overwrite the file(s) on the cluster by uploading."
+msgstr ""
+"การแก้ไขไฟล์ในคอมพิวเตอร์ของคุณด้วย IDE ที่ต้องการของคุณก่อน "
+"แล้วจึงอัปโหลดไปทับไฟล์ในคลัสเตอร์ จะสะดวกกว่า"
+
+#: src/users/files/index.md:35
+msgid "Deleting files"
+msgstr "การลบไฟล์"
+
+#: src/users/files/index.md:37
+msgid "Select the file(s) to be deleted from the file tree."
+msgstr "เลือกไฟล์ที่ต้องการลบจากแถบไฟล์"
+
+#: src/users/files/index.md:38
+msgid "Click ![delete icon](./delete-icon.webp) button."
+msgstr "คลิกปุ่ม ![ไอคอนลบ](./delete-icon.webp)"
+
+#: src/users/files/index.md:39
+msgid "Confirm deletion."
+msgstr "ยืนยันการลบ"
+
+#: src/users/files/index.md:41
+msgid "Advanced"
+msgstr "ขั้นสูง"
+
+#: src/users/files/index.md:43
+msgid ""
+"Since the cluster is based on Slurm, files can be transferred directly via "
+"`scp` or `rsync` programs as another remote server."
+msgstr ""
+"เนื่องจากคลัสเตอร์ทำงานบนระบบ Slurm ไฟล์จึงสามารถโอนย้ายโดยตรงผ่านโปรแกรม `scp` หรือ "
+"`rsync` ได้เสมือนเป็นเซิร์ฟเวอร์ระยะไกลเครื่องหนึ่ง"
+
+#: src/users/files/index.md:54
+msgid ""
+"Interactive files editing on the cluster can also be done with `ssh` with "
+"given credentials."
+msgstr ""
+"การแก้ไขไฟล์แบบ Interactive บนคลัสเตอร์สามารถทำได้ผ่าน `ssh` "
+"โดยใช้สิทธิ์การเข้าใช้งานที่ได้รับ"
+
+#: src/users/job/index.md:3
+msgid "Create a Job"
+msgstr "การสร้าง Job"
+
+#: src/users/job/index.md:5
+msgid ""
+"Before creating a job, you may want to [transfer](./files) some script(s) "
+"and dataset to the cluster."
+msgstr ""
+"ก่อนที่จะสร้าง Job คุณอาจต้องการ[โอนย้าย](./files) สคริปต์หรือชุดข้อมูลไปยังคลัสเตอร์ก่อน"
+
+#: src/users/job/index.md:8
+msgid "Go to the menu item \"Job Templates\" on the left side."
+msgstr "แถบไฟล์จะแสดงที่ด้านซ้าย"
+
+#: src/users/job/index.md:9
+msgid ""
+"Select a suitable template for your job (Common Job). Here are some details "
+"for frequently-used templates:"
+msgstr ""
+"เลือกเทมเพลตที่เหมาะสมกับ Job ของคุณ (Common Job) "
+"ต่อไปนี้คือรายละเอียดสำหรับเทมเพลตที่ใช้งานบ่อย:"
+
+#: src/users/job/index.md:11
+msgid "**Common Job**: cover most of the need of running bare scripts."
+msgstr "**Common Job**: ครอบคลุมความต้องการส่วนใหญ่ในการรันสคริปต์ทั่วไป"
+
+#: src/users/job/index.md:12
+msgid "**Singularity**: be able to run jobs with custom containers."
+msgstr "**Singularity**: สามารถรัน Job ด้วยคอนเทนเนอร์ที่กำหนดเองได้"
+
+#: src/users/job/index.md:13
+msgid "**PyTorch**: expose PyTorch library for the job to use."
+msgstr "**PyTorch**: เตรียมไลบรารี PyTorch ให้พร้อมสำหรับการใช้งานใน Job"
+
+#: src/users/job/index.md:14
+msgid "Fill up the job detail:"
+msgstr "กรอกรายละเอียดของ Job:"
+
+#: src/users/job/index.md:15
+msgid "Template Information:"
+msgstr "ข้อมูลเทมเพลต:"
+
+#: src/users/job/index.md:16
+msgid "Job Name: the job name. Must be alphanumeric including underscore."
+msgstr "Job Name: ชื่อของ Job ต้องเป็นตัวอักษรหรือตัวเลข รวมถึงเครื่องหมาย underscore (_)"
+
+#: src/users/job/index.md:17
+msgid ""
+"Workspace: the directory that the job will start. Log files will be also "
+"generated here."
+msgstr "Workspace: ไดเร็กทอรีที่ Job จะเริ่มทำงาน และไฟล์ Log จะถูกสร้างขึ้นที่นี่"
+
+#: src/users/job/index.md:19
+msgid "Resource Options:"
+msgstr "ตัวเลือกทรัพยากร:"
+
+#: src/users/job/index.md:20
+msgid "Queue: choose your allowed queue."
+msgstr "Queue: เลือกคิวที่คุณได้รับอนุญาต"
+
+#: src/users/job/index.md:21
+msgid ""
+"Exclusive: whether to disallow other jobs running on the same node. **Keep "
+"the box empty**."
+msgstr "Exclusive: ตัวเลือกไม่อนุญาตให้ Job อื่นรันบนโหนดเดียวกัน **เว้นช่องนี้ว่างไว้**"
+
+#: src/users/job/index.md:23
+msgid "Node: the number of computers to run the job; usually `1`."
+msgstr "Node: จำนวนเครื่องคอมพิวเตอร์ที่จะใช้รัน Job โดยปกติคือ `1`"
+
+#: src/users/job/index.md:24
+msgid ""
+"CPU Cores Per Node: the number of CPU cores per computer to run. Must be "
+"under the limit."
+msgstr ""
+"CPU Cores Per Node: จำนวน CPU core ต่อเครื่องที่ต้องการใช้งาน ต้องไม่เกินขีดจำกัดที่กำหนด"
+
+#: src/users/job/index.md:26
+msgid "GPU per Node: either `0` or `1`."
+msgstr "GPU per Node: เลือก `0` หรือ `1`"
+
+#: src/users/job/index.md:27
+msgid "GPU Per Node: the number of GPU per computer to run; usually `1`."
+msgstr "GPU Per Node: จำนวน GPU ต่อเครื่องที่จะใช้รัน โดยปกติคือ `1`"
+
+#: src/users/job/index.md:28
+msgid ""
+"GPU Resource Type: `gpu:STU_GPU` if you are a student (MIG). `gpu:Full_GPU` "
+"if you are lecturer/researcher."
+msgstr ""
+"GPU Resource Type: เลือก `gpu:STU_GPU` หากคุณเป็นนักศึกษา (MIG) หรือเลือก "
+"`gpu:Full_GPU` หากคุณเป็นอาจารย์/นักวิจัย"
+
+#: src/users/job/index.md:30
+msgid "Memory Used: the memory per job in `MB`. Must be under the limit."
+msgstr "Memory Used: หน่วยความจำต่อหนึ่ง Job ในหน่วย `MB` ต้องไม่เกินขีดจำกัด"
+
+#: src/users/job/index.md:31
+msgid ""
+"Wall Time: the maximum duration the job allowed to run. Must be under the "
+"limit."
+msgstr "Wall Time: ระยะเวลาสูงสุดที่อนุญาตให้ Job รันได้ ต้องไม่เกินขีดจำกัด"
+
+#: src/users/job/index.md:33
+msgid "Click \"Submit\" to create the job and submit it to the cluster."
+msgstr "คลิก \"Submit\" เพื่อสร้าง Job และส่งไปยังคลัสเตอร์"
+
+#: src/users/job/index.md:38
+msgid "Monitor a Job"
+msgstr "การติดตาม Job"
+
+#: src/users/job/index.md:40
+msgid ""
+"After submitting a job, the job will go through a queue and being run by a "
+"node."
+msgstr "หลังจากส่ง Job แล้ว Job จะเข้าไปอยู่ในคิวและจะถูกรันโดยโหนดเมื่อถึงลำดับ"
+
+#: src/users/job/index.md:42
+msgid ""
+"Most of monitoring will be in the page of the menu item \"Job Monitoring\" "
+"on the left side. After entering, there will be 3 sections."
+msgstr ""
+"การติดตามส่วนใหญ่จะอยู่ในเมนู \"Job Monitoring\" ทางด้านซ้าย เมื่อเข้าไปแล้วจะมี 3 ส่วน"
+
+#: src/users/job/index.md:45
+msgid "![Queue type](./queue-types.webp)"
+msgstr "![ประเภทของคิว](./queue-types.webp)"
+
+#: src/users/job/index.md:47
+msgid "Running: jobs currently being run by nodes will be shown here."
+msgstr "Running: Job ที่กำลังถูกรันโดยโหนดในขณะนี้จะแสดงที่นี่"
+
+#: src/users/job/index.md:48
+msgid "Waiting: jobs being held in a queue."
+msgstr "Waiting: Job ที่กำลังรออยู่ในคิว"
+
+#: src/users/job/index.md:49
+msgid "Completed: history of jobs already run."
+msgstr "Completed: ประวัติของ Job ที่รันเสร็จสิ้นแล้ว"
+
+#: src/users/job/index.md:53
+msgid ""
+"To inspect why your job is currently queueing, go to \"Waiting\" tab, click "
+"on the waiting job's scheduler ID, and inspect on the value of `Reason` "
+"variable. In normal circumstances, the value should be `normal`."
+msgstr ""
+"หากต้องการตรวจสอบว่าทำไม Job ของคุณถึงอยู่ในคิว ให้ไปที่แท็บ \"Waiting\" คลิกที่scheduler "
+"ID ของ Job ที่รออยู่ และตรวจสอบค่าของตัวแปร `Reason` โดยปกติแล้วค่าควรจะเป็น `normal`"
+
+#: src/users/job/index.md:57
+msgid "Assuming the job is out of queue and running, you can monitor it by:"
+msgstr "เมื่อตรวจสอบแล้วว่า Job ออกจากคิวและกำลังรันอยู่ คุณสามารถติดตามได้โดย:"
+
+#: src/users/job/index.md:59
+msgid ""
+"Click \"Running\" tab. There will be your jobs that are running (if already "
+"passed the queue)."
+msgstr "คลิกแท็บ \"Running\" Job ที่กำลังรันของคุณจะปรากฏที่นี่ (หากผ่านขั้นตอนการรอคิวแล้ว)"
+
+#: src/users/job/index.md:61
+msgid ""
+"Click on **the job name** to see further details of the running job. There "
+"will be tabs on each aspect of the detail."
+msgstr "คลิกที่ชื่อ Job เพื่อดูรายละเอียดเพิ่มเติมของ Job นั้น"
+
+#: src/users/job/index.md:63
+msgid ""
+"Log: shows all `stdout` from the running job. Useful for tracking the "
+"current state of the job."
+msgstr ""
+"Log: แสดง `stdout` ทั้งหมดจาก Job ที่กำลังรันอยู่ มีประโยชน์ในการติดตามสถานะปัจจุบันของ Job"
+
+#: src/users/job/index.md:65
+msgid "Resource: all resource used for running the job."
+msgstr "Resource: ทรัพยากรทั้งหมดที่ใช้ในการรัน Job "
+
+#: src/users/job/index.md:70
+msgid "After the job has finished running:"
+msgstr "หลังจาก Job รันเสร็จสิ้นแล้ว:"
+
+#: src/users/job/index.md:72
+msgid "Click \"Completed\" tab. You will see the history of completed jobs"
+msgstr "คลิกแท็บ \"Completed\" คุณจะเห็นประวัติของ Job ที่รันเสร็จสิ้นแล้ว"
+
+#: src/users/job/index.md:73
+msgid "Click on the job name to see further details of that job."
+msgstr "คลิกที่ชื่อ Job เพื่อดูรายละเอียดเพิ่มเติมของ Job นั้น"
+
+#: src/users/job/index.md:74
+msgid "Click \"Log\" tab to show completed `stdout` from that job."
+msgstr "คลิกแท็บ \"Log\" เพื่อดู `stdout` ของ Job ที่รันเสร็จสิ้นแล้ว"
+
+#: src/users/job/index.md:76
+msgid "Copy a Job"
+msgstr "คัดลอก Job"
+
+#: src/users/job/index.md:78
+msgid ""
+"In case you want to rerun the job or modify a few job details, you can "
+"quickly copy the detail reference from the previous job, so you do not have "
+"to recreate a new job from scratch again."
+msgstr ""
+"ในกรณีที่คุณต้องการรัน Job ซ้ำหรือแก้ไขรายละเอียดบางอย่างคุณสามารถคัดลอกรายละเอียดอ้างอิงจาก "
+"Job ก่อนหน้าได้อย่างรวดเร็ว เพื่อจะได้ไม่ต้องสร้าง Jobใหม่ตั้งแต่ต้น"
+
+#: src/users/job/index.md:82
+msgid ""
+"Go to either \"Running\", \"Waiting\", or \"Completed\" tab; the one that "
+"has the job."
+msgstr "ไปที่แท็บ \"Running\", \"Waiting\", หรือ \"Completed\" ตามตำแหน่งที่ Job นั้นอยู่"
+
+#: src/users/job/index.md:84
+msgid ""
+"Click \"Action\" button on the right side of the job you intend to copy."
+msgstr "คลิกปุ่ม \"Action\" ทางด้านขวาของ Job ที่คุณต้องการคัดลอก"
+
+#: src/users/job/index.md:85
+msgid "Click \"Copy\", this will recreate another job with filled details."
+msgstr "คลิก \"Copy\" เพื่อสร้าง Job ใหม่อีกครั้งพร้อมรายละเอียดที่กรอกไว้แล้ว"
+
+#: src/users/job/index.md:86
+msgid "Edit the detail, and then click \"Submit\" to send a new job."
+msgstr "แก้ไขรายละเอียด จากนั้นคลิก \"Submit\" เพื่อส่ง Job ใหม่"
+
+#: src/users/container.md:3 src/administrator/index.md:3
+msgid "To be added."
+msgstr "รอการเพิ่มข้อมูล"
+
+#: src/users/limitations.md:3
+msgid "Here are current resource limitations for each user roles."
+msgstr "ต่อไปนี้คือขีดจำกัดทรัพยากรปัจจุบันสำหรับบทบาทผู้ใช้งานแต่ละประเภท"
+
+#: src/users/limitations.md:5
+msgid "Resource"
+msgstr "ทรัพยากร"
+
+#: src/users/limitations.md:5
+msgid "Student"
+msgstr "นักศึกษา"
+
+#: src/users/limitations.md:5
+msgid "Researcher/Lecturer"
+msgstr "นักวิจัย/อาจารย์"
+
+#: src/users/limitations.md:7
+msgid "CPU/Job"
+msgstr "CPU/Job"
+
+#: src/users/limitations.md:7
+msgid "3 cores"
+msgstr "3 cores"
+
+#: src/users/limitations.md:7
+msgid "16 cores"
+msgstr "16 cores"
+
+#: src/users/limitations.md:8
+msgid "Memory/Job"
+msgstr "Memory/Job"
+
+#: src/users/limitations.md:8
+msgid "TBD"
+msgstr "รอกำหนด"
+
+#: src/users/limitations.md:8
+msgid "36 GiB"
+msgstr "36 GiB"
+
+#: src/users/limitations.md:9
+msgid "[Wall Time](../introduction/glossary.html#wall-time)"
+msgstr "[Wall Time](../introduction/glossary.html#wall-time)"
+
+#: src/users/limitations.md:9
+msgid "3 Hours"
+msgstr "3 ชั่วโมง"
+
+#: src/users/limitations.md:9
+msgid "5 Days"
+msgstr "5 วัน"
+
+#: src/users/limitations.md:10
+msgid "GPU/Job"
+msgstr "GPU/Job"
+
+#: src/users/limitations.md:10
+msgid "1 [MIG](../introduction/glossary.html#mig)"
+msgstr "1 [MIG](../introduction/glossary.html#mig)"
+
+#: src/users/limitations.md:10
+msgid "1 Full Card"
+msgstr "1 Full Card"
+
+#: src/users/limitations.md:15
+msgid "\\[!IMPORTANT\\]"
+msgstr "\\[!IMPORTANT\\]"
+
+#: src/users/limitations.md:17
+msgid ""
+"Make sure that your job's resource requests do not exceed the given "
+"limitation. **The job might be stuck forever** in `Queueing` if the "
+"requested resource exceed the limitation of your quotas."
+msgstr ""
+"โปรดตรวจสอบให้แน่ใจว่าคำขอทรัพยากรของ Job ไม่เกินขีดจำกัดที่กำหนดไว้ ** Job "
+"อาจติดค้างอยู่ในสถานะ `Queueing`ตลอดไป** หากคำขอทรัพยากรเกิน Quota ของคุณ"
+
+#: src/users/frequent-problems.md:3
+msgid "Why does my submitted job appear to stuck in the queue forever?"
+msgstr "ทำไม Job ที่ส่งไปถึงดูเหมือนจะค้างอยู่ในคิวตลอดไป?"
+
+#: src/users/frequent-problems.md:5
+msgid ""
+"One way to diagnose the problem is to click on the `Scheduler ID` and look "
+"at the scheduler's description. If the `Reason` variable equals to:"
+msgstr ""
+"อีกหนึ่งวิธีตรวจสอบต้นตอปัญหาคือ คลิกที่ `Scheduler ID` แล้วดูข้อมูลของ Scheduler หากตัวแปร"
+"`Reason` มีค่าเป็น:"
+
+#: src/users/frequent-problems.md:8
+msgid ""
+"`QOSMaxWallDurationPerJobLimit`: Your job requested wall time for too long "
+"and will stick in the queue forever. Please cancel the current job, copy the "
+"job, and adjust the wall time to be under your role's [limitations](./"
+"limitations.html)."
+msgstr ""
+"`QOSMaxWallDurationPerJobLimit`: Job ของคุณขอระยะเวลา wall "
+"time นานเกินไปและจะค้างอยู่ในคิวตลอดไป โปรดยกเลิก Job ปัจจุบัน คัดลอก Job และปรับ wall "
+"time ให้ไม่เกิน[ขีดจำกัด](./limitations.html)ของบทบาทคุณ"
+
+#: src/users/frequent-problems.md:13
+msgid "Why my job cannot use existing GPU?"
+msgstr "ทำไม Job ของฉันถึงไม่สามารถใช้ GPU ที่มีอยู่ได้?"
+
+#: src/users/frequent-problems.md:15
+msgid ""
+"Especially for students groups, only MIG GPUs are allowed. By default, your "
+"script is not usually specified to use MIG GPUs for computation, but full "
+"GPUs. As the job is only allocated for MIG GPUs, requesting a full GPU "
+"inside might be problematic. To make your job use MIG GPUs, some "
+"environmental declarations are needed. In this case, we specify \"CUDA "
+"devices\" to be a MIG GPU via declaring `CUDA_VISIBLE_DEVICES` environment "
+"variable as a MIG GPU ID. You can copy this line of the script before the "
+"execution line of the program."
+msgstr ""
+"โดยเฉพาะสำหรับกลุ่มนักศึกษา จะอนุญาตให้ใช้เฉพาะ MIG GPU เท่านั้น โดยปกติแล้ว "
+"สคริปต์ของคุณมักไม่ได้ระบุให้ใช้ MIG GPU ในการคำนวณ แต่จะระบุเป็น GPU แบบเต็ม เนื่องจาก Job "
+"ถูกจัดสรรให้เฉพาะ MIG GPU การขอใช้ GPU แบบเต็มภายใน Job อาจเกิดปัญหา ในการทำให้ Job "
+"ของคุณใช้ MIG GPU จำเป็นต้องมีการประกาศสภาพแวดล้อมบางอย่าง ในกรณีนี้ เราจะระบุ \"CUDA "
+"devices\" ให้เป็น MIG GPU ผ่านการประกาศตัวแปร สภาพแวดล้อม `CUDA_VISIBLE_DEVICES` "
+"เป็น ID ของ MIG GPU คุณสามารถคัดลอกบรรทัดนี้ ของสคริปต์ไปวางไว้ก่อนบรรทัดที่สั่งรันโปรแกรมได้"
+
+#: src/users/frequent-problems.md:24
+msgid ""
+"$(\n"
+"    nvidia-smi -L | \\\n"
+"        grep -Eo 'MIG-[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}' | \\\n"
+"        head -n 1\n"
+")\n"
+msgstr ""
+"$(\n"
+"    nvidia-smi -L | \\\n"
+"        grep -Eo 'MIG-[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}' | \\\n"
+"        head -n 1\n"
+")\n"
+
+#: src/users/frequent-problems.md:31
+msgid ""
+"The script basically lists all available GPUs with UUID. Then, we grab the "
+"first MIG GPU ID (the one Slurm allocates for us), and declaring it the CUDA "
+"device to be used."
+msgstr ""
+"สคริปต์นี้จะแสดงรายการ GPU ทั้งหมดที่มีพร้อม UUID จากนั้นเราจะดึง ID ของ MIG GPU ตัวแรก "
+"(ตัวที่ Slurm จัดสรรให้เรา) และประกาศให้เป็นอุปกรณ์ CUDA ที่จะใช้งานสคริปต์นี้จะแสดงรายการ "
+"GPU ทั้งหมดที่มีพร้อม UUID จากนั้นเราจะดึง ID ของ MIG GPU ตัวแรก (ตัวที่ Slurm "
+"จัดสรรให้เรา) และประกาศให้เป็นอุปกรณ์ CUDA ที่จะใช้งาน"
+
+#: src/reference/index.md:3
+msgid ""
+"Cluster Manual for Researcher, by PTOA: [Thai PDF](./assets/h100-manual-"
+"researcher.pdf)"
+msgstr ""
+"คู่มือการใช้งาน Cluster สำหรับนักวิจัย โดย PTOA: [Thai PDF](./assets/h100-manual-"
+"researcher.pdf)"
+
+#: src/reference/index.md:4
+msgid ""
+"Cluster Manual for Students, by PTOA: [Thai PDF](./assets/h100-manual-"
+"student.pdf)"
+msgstr ""
+"คู่มือการใช้งาน Cluster สำหรับนักศึกษา โดย PTOA: [Thai PDF](./assets/h100-manual-"
+"student.pdf)"
+
+#: src/contribute/index.md:3
+msgid ""
+"The whole documentation is written in markdown files at <https://github.com/"
+"anonymaew/kaen-coon-doc>."
+msgstr ""
+"เอกสารทั้งหมดนี้เขียนด้วยรูปแบบ Markdown ที่ <https://github.com/anonymaew/kaen-coon-"
+"doc>"
+
+#: src/contribute/index.md:6
+msgid ""
+"If you find a page missing some information and need some edits, you can "
+"edit the page by clicking the pencil icon in the top right corner. This will "
+"fork the repo, allowing you to edit the documentation. Then, please submit a "
+"pull request as well."
+msgstr ""
+"หากคุณพบว่าหน้าใดขาดข้อมูลหรือต้องการแก้ไข สามารถแก้ไขหน้าได้โดยคลิกไอคอนรูปดินสอที่มุมขวาบน "
+"ซึ่งจะทำการ fork repository เพื่อให้คุณแก้ไขเอกสารได้ จากนั้นโปรดส่ง pull request "
+"กลับมาด้วย"
+
+#: src/contribute/index.md:11
+msgid ""
+"You are also welcomed to leave comments and suggestions without writing the "
+"documentation by [creating new issue](https://github.com/anonymaew/kaen-coon-"
+"doc/issues/new)."
+msgstr ""
+"คุณยังสามารถทิ้งความคิดเห็นหรือข้อเสนอแนะได้โดยไม่ต้องเขียนเอกสารเอง ผ่านการ [สร้าง issue "
+"ใหม่](https://github.com/anonymaew/kaen-coon-doc/issues/new)"
+
+#: src/contribute/index.md:15
+msgid "Workflow"
+msgstr "เวิร์กโฟลว์ (Workflow)"
+
+#: src/contribute/index.md:17
+msgid "Documentation platform: [`mdbook`](https://rust-lang.github.io/mdBook/)"
+msgstr "แพลตฟอร์มสำหรับเอกสาร: [`mdbook`](https://rust-lang.github.io/mdBook/)"
+
+#: src/contribute/index.md:18
+msgid "Written in Markdown on `src` directory."
+msgstr "เขียนด้วย Markdown ในไดเร็กทอรี `src`"
+
+#: src/contribute/index.md:19
+msgid ""
+"i18n: [`mdbook-i18n-helpers`](https://github.com/google/mdbook-i18n-helpers)"
+msgstr ""
+"i18n: [`mdbook-i18n-helpers`](https://github.com/google/mdbook-i18n-helpers)"
